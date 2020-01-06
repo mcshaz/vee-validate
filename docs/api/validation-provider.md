@@ -118,7 +118,7 @@ All the following props are optional.
 
 | Prop           | Type                      | Default Value         | Description                                                                                         |
 | -------------- | ------------------------- | --------------------- | --------------------------------------------------------------------------------------------------- |
-| rules          | `string`                  | `undefined`           | The validation rules.                                                                               |
+| rules          | `string`\|`object`        | `undefined`           | The validation rules. If an `object`, properties with a value of `true` will pe applied          |
 | vid            | `string`                  | auto increment number | Identifier used for target/cross-field based rules.                                                 |
 | immediate      | `boolean`                 | `false`               | If the field should be validated immediately after render (initially).                              |
 | name           | `string`                  | `undefined`           | Specifies a field name to be used in error messages.                                                |
